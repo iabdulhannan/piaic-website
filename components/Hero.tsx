@@ -1,5 +1,4 @@
 import {
-  Box,
   Heading,
   Container,
   Text,
@@ -39,7 +38,7 @@ export default function Hero() {
               for Artificial Intelligence & Computing
             </Text>
           </Heading>
-          <Text color={'gray.300'} maxW={'5xl'} textAlign={{base: 'justify', md:'center'}} fontWeight={'thin'}>
+          <Text color={'gray.300'} maxW={'5xl'} textAlign={{base: 'justify', md: 'center'}} fontWeight={'thin'}>
             The mission of PIAIC is to reshape Pakistan by revolutionizing education, research, and business by adopting
             latest, cutting-edge technologies. Experts are calling this the 4th industrial revolution. We want Pakistan
             to become a global hub for AI, data science, cloud native computing, edge computing, blockchain, augmented
@@ -65,7 +64,7 @@ export default function Hero() {
                 Apply
               </Button>
             </Link>
-            <Link href={'#'}>
+            <Link href={'howItWorks'}>
               <Button
                 variant={'outline'}
                 minW={'150'}
@@ -73,9 +72,7 @@ export default function Hero() {
                 color={'#ffffff'}
                 _hover={{
                   borderWidth: 2,
-                  // borderColor: '#000000',
                 }}
-
                 px={6}>
                 How It Works
               </Button>

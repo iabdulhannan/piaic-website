@@ -9,7 +9,7 @@ export const dropdownData: DropdownData[] = [
   {
     title: 'How It Works',
     isDropdown: false,
-    linkTo: '#',
+    linkTo: 'howItWorks',
   },
   {
     title: 'Available Programs',
