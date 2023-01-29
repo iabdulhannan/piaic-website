@@ -147,11 +147,11 @@ export default function Header() {
 
                             <AccordionPanel>
                               {
-                                data?.items?.map((item, index) => {
+                                data?.items?.length && data?.items?.map((item, index) => {
                                   return (
                                     <>
                                       <Flex alignItems={"center"} key={index} px={2} py={3} rounded={'md'}
-                                            borderBottomWidth={index === data?.items?.length - 1 ? 0 : 1}>
+                                            borderBottomWidth={index === data?.items?.length! - 1 ? 0 : 1}>
                                         <Link
                                           href={item.linkTo}
                                           onClick={() => onClose()}
