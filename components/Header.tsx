@@ -12,7 +12,7 @@ import {
   useColorModeValue,
   Accordion,
   AccordionButton,
-  AccordionPanel, AccordionItem, AccordionIcon, Button, Heading, useMediaQuery
+  AccordionPanel, AccordionItem, AccordionIcon, Button, Heading
 } from '@chakra-ui/react';
 import DropDownMenu from './DropdownMenu';
 import {FaGithub} from 'react-icons/fa';
@@ -23,7 +23,7 @@ import PIAOCLogo from 'piaicRoot/assets/images/PIAICLogo.svg'
 import PIAOCLogoSmall from 'piaicRoot/assets/images/PIAICLogoSmall.svg'
 import {useRouter} from "next/router";
 
-const GITHUB_REPO_LINK = 'https://github.com/iabdulhannan/panaverse-dao-syllabus';
+const GITHUB_REPO_LINK = 'https://github.com/iabdulhannan/piaic-website';
 
 
 export default function Header() {
